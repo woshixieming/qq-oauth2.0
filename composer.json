@@ -1,0 +1,18 @@
+{
+    "name": "qq-login",
+    "description": "QQ Login For ThinkPHP5.0",
+    "authors": [
+        {
+            "name": "XieMing",
+            "email": "155219845@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xm\\qqlogin\\": "/"
+        }
+    }
+}
