@@ -1,5 +1,5 @@
 <?php
-namespace xm\qqlogin;
+namespace woshixm\qqlogin;
 /* PHP SDK
  * @version 2.0.0
  * @author connect@qq.com
