@@ -1,7 +1,7 @@
 # qq-oauth2.0
 
  
-######QQ登录OAuth2.0总体处理流程如下：  
+**QQ登录OAuth2.0总体处理流程如下：**  
 > Step1：申请接入，获取appid和apikey；  
 Step2：开发应用，并设置协作者帐号进行测试联调；  
 Step3：放置QQ登录按钮；  
@@ -10,7 +10,7 @@ Step5：通过Access Token获取用户的OpenID；
 Step6：调用OpenAPI，来请求访问或修改用户授权的资源。  
 
 
-######全局参数配置
+**全局参数配置**
 
     'qq_oauth_config' => [
         'appid' => '',
@@ -20,7 +20,7 @@ Step6：调用OpenAPI，来请求访问或修改用户授权的资源。
         'errorReport' => true
     ]
 
-######修改Recorder.php的参数配置:
+**修改Recorder.php的参数配置:**
 
     public function __construct(){
         $this->error = new ErrorCase();
@@ -38,7 +38,7 @@ Step6：调用OpenAPI，来请求访问或修改用户授权的资源。
         }
     }
     
-######调用:
+**调用:**
 
 1、获取授权地址:
 
