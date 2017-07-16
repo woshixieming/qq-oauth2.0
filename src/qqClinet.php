@@ -1,10 +1,11 @@
 <?php
-namespace woshixm\qqlogin;
-/* PHP SDK
- * @version 2.0.0
- * @author connect@qq.com
- * @copyright © 2013, Tencent Corporation. All rights reserved.
- */
+namespace woshixieming\login;
+    /* PHP SDK
+     * @version 2.0.0
+     * @author connect@qq.com
+     * @editor Xie Ming 2017-07-16
+     * @copyright © 2013, Tencent Corporation. All rights reserved.
+     */
 
 /*
  * @brief QC类，api外部对象，调用接口全部依赖于此对象
@@ -46,8 +47,6 @@ class qqClinet extends Oauth{
          * 规则 array( baseUrl, argListArr, method)
          */
         $this->APIMap = array(
-
-
             /*                       qzone                    */
             "add_blog" => array(
                 "https://graph.qq.com/blog/add_one_blog",

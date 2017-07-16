@@ -1,8 +1,9 @@
 <?php
-namespace woshixm\qqlogin;
+namespace woshixieming\login;
 /* PHP SDK
  * @version 2.0.0
  * @author connect@qq.com
+ * @editor Xie Ming 2017-07-16
  * @copyright © 2013, Tencent Corporation. All rights reserved.
  */
 
@@ -15,15 +16,16 @@ class Recorder{
         $this->error = new ErrorCase();
 
         //-------读取配置文件
-        $this->inc = config('qqconnect');
+        $this->inc = config('qq_oauth_config');
+
         if(empty($this->inc)){
             $this->error->showError("20001");
         }
 
-        if(empty(session('QC_userData'))){
+        if(empty($_SESSION('qq_user_data'))){
             self::$data = array();
         }else{
-            self::$data = session('QC_userData');
+            self::$data = $_SESSION('qq_user_data');
         }
     }
 
@@ -52,6 +54,6 @@ class Recorder{
     }
 
     function __destruct(){
-        session('QC_userData', self::$data);
+        $_SESSION('qq_user_data', self::$data);
     }
 }

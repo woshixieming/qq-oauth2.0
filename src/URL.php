@@ -1,10 +1,12 @@
 <?php
-namespace woshixm\qqlogin;
-/* PHP SDK
- * @version 2.0.0
- * @author connect@qq.com
- * @copyright © 2013, Tencent Corporation. All rights reserved.
- */
+namespace woshixieming\login;
+
+    /* PHP SDK
+     * @version 2.0.0
+     * @author connect@qq.com
+     * @editor Xie Ming 2017-07-16
+     * @copyright © 2013, Tencent Corporation. All rights reserved.
+     */
 
 /*
  * @brief url封装类，将常用的url请求操作封装在一起

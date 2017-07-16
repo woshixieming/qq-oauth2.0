@@ -1,6 +1,14 @@
 {
-    "name": "woshixm/qqlogin",
-    "description": "QQ Login For ThinkPHP5.0",
+    "name": "woshixieming/qq-oauth2.0",
+    "description": "QQ Oauth2.0",
+    "keywords":[
+        "qq-oauth",
+        "woshixieming",
+        "小虾米大理想"
+    ],
+    "homepage": "https://github.com/woshixieming",
+    "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "XieMing",
@@ -12,7 +20,8 @@
     },
     "autoload": {
         "psr-4": {
-            "woshixm\\qqlogin\\": "/"
+            "woshixieming\\login\\": "src/"
         }
     }
 }
+
